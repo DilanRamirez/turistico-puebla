@@ -39,8 +39,10 @@
 }
 
 .card-content {
+  margin-bottom: 50px;
+  margin-top: 50px;
   position: relative;
-  padding: 28px 30px 0px 26px;
+  padding: 0px 30px 0px 30px;
 }
 
 .card-subInfo {
@@ -59,7 +61,7 @@
 }
 
 .btn-card {
-  background-color: #bbe6ff;
+  background-color: transparent;
   position: absolute;
   size: 30px;
   padding: 25px;
@@ -106,7 +108,7 @@
   size: 25px;
   text-align: center;
   font-weight: bold;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 .home-subtitle {
   padding: 0px 50px 0px 50px;
@@ -118,8 +120,8 @@
 .home-img {
   position: relative;
   display: flex;
-  width: 215px;
-  /* margin-top: 15%; */
+  width: 300px;
+  margin-top: 20%;
 }
 
 .home-btn {
@@ -132,6 +134,11 @@
   border-radius: 32px;
   background-color: #ff774d;
   bottom: 4rem;
+}
+
+button:focus {
+  /* outline: 1px dotted; */
+  outline: 0px auto -webkit-focus-ring-color !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -263,6 +270,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 20%;
+    font-size: 36px;
   }
   .home-subtitle {
     padding: 0px 50px 0px 50px;
@@ -270,12 +278,13 @@
     color: #00000059;
     margin-bottom: 0px !important;
     margin-top: 15px !important;
+    font-size: 18px;
   }
   .home-img {
     position: relative;
     display: flex;
     width: 250px;
-    margin-top: 5%;
+    margin-top: 20%;
   }
 
   .home-btn {
@@ -287,6 +296,6 @@
     border: 1px solid #fff;
     border-radius: 32px;
     background-color: #ff774d;
-    bottom: 4rem;
+    bottom: 6rem;
   }
 }
